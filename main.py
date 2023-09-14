@@ -11,7 +11,9 @@ def mul_func(n1,n2):
     return res
 
 
-
+def div_func(n1,n2):
+    res=n1/n2
+    return res
 
 
 num1=100
@@ -26,3 +28,6 @@ print(num1,'-',num2,'=',result)
 
 result=mul_func(num1,num2)
 print(num1,'*',num2,'=',result)
+
+result=div_func(num1,num2)
+print(num1,'/',num2,'=',result)
